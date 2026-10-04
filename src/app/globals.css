@@ -68,3 +68,6 @@ body{background:radial-gradient(ellipse at 78% -18%,rgba(28,135,76,.13),transpar
 .emptyhint{color:#8b998e}
 footer{color:#647166!important}
 @media(max-width:760px){.sidebar{width:66px;padding:18px 8px}.sidebar:not(.collapsed){width:66px}.sidebar .brandtext,.sidebar .navlabel,.sidebar .navitem span,.sidebar .profiletext,.sidebar .collapsebtn span{display:none}.sidebar .brand{margin:0 auto 35px}.sidebar .navitem{justify-content:center;padding:12px 0}.sidebar .profile{justify-content:center;padding:15px 0 0}.collapsebtn{justify-content:center;padding:10px 0}.collapsebtn span{display:none}.main{padding:22px 15px 36px}}
+
+.metricicon[style]{background:#292216!important;color:#e8b56d!important}
+.card[style*="background"]{background:linear-gradient(145deg,#121813,#0e130f)!important}
