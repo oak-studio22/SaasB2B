@@ -71,3 +71,64 @@ footer{color:#647166!important}
 
 .metricicon[style]{background:#292216!important;color:#e8b56d!important}
 .card[style*="background"]{background:linear-gradient(145deg,#121813,#0e130f)!important}
+
+
+/* NEXO — refinamento visual dark */
+:root{
+  color-scheme:dark;
+  --bg:#080b09;
+  --panel:#101511;
+  --ink:#edf5ef;
+  --muted:#91a095;
+  --line:#253027;
+  --green:#29d47b;
+  --nav:#090d0a;
+}
+html{min-height:100%;background:var(--bg)}
+body{
+  min-height:100vh;
+  background:radial-gradient(ellipse at 72% -12%,rgba(39,190,103,.12),transparent 42%),var(--bg);
+  color:var(--ink);
+}
+.shell{background:transparent}
+.sidebar{background:#090d0a;border-right:1px solid #202a22}
+.brandtext{font-size:21px;font-weight:800;color:#f1f8f2}
+.navitem{color:#9ba99e}
+.navitem.active{background:#14271a;color:#62e49b;box-shadow:inset 3px 0 #2bd47d}
+.main{color:var(--ink)}
+.topbar{border-bottom:1px solid rgba(139,161,143,.12);padding-bottom:18px}
+.eyebrow{color:#7f9083}
+.pageTitle,.welcome h2{color:#f1f7f2}
+.welcome p,.muted,.metricfoot{color:#91a095}
+.card{background:#101511;border-color:#253027;box-shadow:0 12px 34px rgba(0,0,0,.16)}
+.cardtitle h3,.metricvalue,.flowvalue,.txname{color:#edf5ef}
+.metrichead,.flowlabel{color:#a1afa4}
+.metricicon,.flowcircle{background:#173021;color:#4bdd8c}
+.primary{background:#25c875;color:#06120a;border:1px solid #39dc87;box-shadow:0 5px 18px rgba(32,200,121,.12)}
+.primary:hover{background:#43e58d;color:#06120a}
+.secondary,.period,.iconbtn{background:#111712;border-color:#2a352c;color:#b6c2b8}
+.secondary:hover,.iconbtn:hover{background:#172219;border-color:#2c9b5b;color:#68e39b}
+.field input,.field select,.field textarea,input,select,textarea{background:#0d120e;color:#edf5ef;border-color:#2a352c}
+.field input::placeholder,input::placeholder,textarea::placeholder{color:#718075}
+.tx th{color:#829186;border-color:#29352b}
+.tx td{color:#c5d0c7;border-color:#222c24}
+.tx tr:hover td{background:#151c16}
+.txico{background:#1a251c;color:#9bb6a0}
+.progress{background:#252e26}
+.progress span{background:linear-gradient(90deg,#169d55,#3be187)}
+.chart{border-color:#29352b}
+.bar{background:#2b4b35}
+.bar.dark{background:linear-gradient(180deg,#4be994,#159b53)}
+.taxestimate{background:#102016;border-color:#284b32}
+.helpitems>div{background:#111712;border-color:#2a352c}
+.helpitems h4{color:#eaf3eb}
+.helpitems p{color:#9aa89d}
+.modal{background:#111712;border-color:#2b382d;color:#edf5ef}
+.notice{background:#102419;border-color:#28553a;color:#72e3a0}
+.emptyhint{color:#91a095}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #35d981;outline-offset:2px}
+@media(max-width:760px){
+  .topbar{padding-bottom:14px}
+  .sidebar{border-right:1px solid #202a22}
+  .main{background:transparent}
+}
